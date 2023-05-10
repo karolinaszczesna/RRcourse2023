@@ -22,6 +22,8 @@ format:
 number-sections: true
 ---
 
+knitr::convert_chunk_header(input = "Assignment_10052023.Rmd", output = "Assignment_10052023.qmd")
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 load("/Users/karolina.szczesna/Desktop/season_1.RData")
