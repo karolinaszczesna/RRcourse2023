@@ -1,0 +1,91 @@
+---
+title: "Assignment 10/05/23"
+author: "Karolina Szczesna"
+date: today
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+    toc-expand: 3
+    toc-title: Contents
+    toc-location: body
+    theme: solar
+    embed-resources: true
+  html: 
+    toc: true
+    toc-depth: 2
+    toc-expand: 3
+    toc-title: Contents
+    toc-location: body
+    theme: solar
+    embed-resources: true
+number-sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+load("/Users/karolina.szczesna/Desktop/season_1.RData")
+```
+
+# Game of Thrones - Season 1
+
+__(*Warning:* spoilers ahead)__
+
+***
+
+## Overview
+
+(From the [Wikipedia](https://en.wikipedia.org/wiki/Game_of_Thrones#Premise)) Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin, the first of which is A Game of Thrones.
+
+Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show. A major arc concerns the Iron Throne of the Seven Kingdoms of Westeros through a web of political conflicts among the noble families either vying to claim the throne or fighting for independence from it. Another focuses on the last descendant of the realm's deposed ruling dynasty, who has been exiled to Essos and is plotting a return to the throne. A third story arc follows the Night's Watch, a military order defending the realm against threats from the North.
+
+***
+
+## Season 1 summary
+
+Season 1 of Game of Thrones consisted of 10 episodes that aired between April 17 and June 19, 2011 on HBO. The show gathered an average of 2.515 first-day TV viewers in the US, with the number growing from 2.22 to 3.04 million by the end of the season.
+
+The most popular episode of the season was "Fire and Blood", in which:
+
+> "The North secedes from the Seven Kingdoms and proclaims Robb as king. With Jaime as the Starks' prisoner and Robert's two brothers, Stannis and Renly, each challenging Joffrey's claim to the throne, Tywin appoints Tyrion as acting King's Hand, while Tywin fights to defend Joffrey's reign. Jon attempts to desert the Night's Watch to avenge Ned and join Robb, but his Night's Watch brothers convince him to honor his oath. Jon joins an expedition to search for Benjen Stark beyond the Wall. Yoren, a Night's Watch recruiter, smuggles Arya out of King's Landing disguised as a boy, while Joffrey intends to crown Sansa his queen, despite executing her father. Daenerys's baby is born deformed and dead, and Drogo is left in a vegetative state by the witch's treacherous magic. Daenerys compassionately ends Drogo's life. She places the three dragon eggs on Drogo's funeral pyre and sets it afire, also burning the witch alive. Ignoring Jorah's pleas, she walks into the flames. When the embers die the following morning, Daenerys is found in the ashes, unharmed, flanked by three newly-hatched baby dragons. Jorah and other witnesses kneel before her."
+
+***
+
+## Summary in numbers
+
+You can see how the viewership of the episodes changed in Figure 1.
+
+```{r viewers_plot}
+plot(season_data$viewers, type="l", col="red", lwd=5, xlab = "Episode number", ylab = "1st day TV viewers in the US (millions)")
+```
+
+***
+
+Finally, the episodes with the above-average viewership were:
+
+| No. in season | Title  | Directed by  |
+|:------        |:-----: |:------:      |
+| 5             | "The Wolf and the Lion"  | Brian Kirk      |
+| 8             | "The Pointy End" | Daniel Minahan      |
+| 9             | "Baelor" | Alan Taylor      |
+| 10            | "Fire and Blood" | Alan Taylor      |
+
+
+
+# Game of Thrones - Season 2
+
+__(*Warning:* spoilers ahead)__
+
+***
+
+## Overview
+
+The second season of the fantasy drama television series Game of Thrones premiered in the United States on HBO on April 1, 2012, and concluded on June 3, 2012. It consists of 10 episodes, each running approximately 50–60 minutes. The season mostly covers the events of A Clash of Kings, the second novel of the A Song of Ice and Fire series by George R. R. Martin, adapted for television by David Benioff and D. B. Weiss. HBO ordered the second season on April 19, 2011, which began filming in July 2011, primarily in Ireland, Northern Ireland, Croatia and Iceland.
+
+## Season 2 summary
+
+The story takes place in a fantasy world, primarily on a fictional continent called Westeros, with one storyline occurring on another continent to the east, Essos. Like the novel, the season follows the aftermath of Eddard "Ned" Stark's dramatic death, and the political turmoil that comes with it. The season mainly centers around the War of the Five Kings, fought among the leaders of Westerosi factions who are either staking a claim to the Iron Throne, or seeking independence from it. Cersei Lannister, the widow of the late King Robert Baratheon, stays in the capital as queen regent, while her son Joffrey rules as King of the Seven Kingdoms. Cersei's twin brother, Jaime, is Robb Stark's prisoner, and her other brother, the dwarf Tyrion, serves as Acting Hand of the King to Joffrey, until the siblings' father, Tywin Lannister, returns to help defend the capital. In the North, Jon Snow and the Night's Watch stay with a reluctant ally during an expedition beyond the Wall. Meanwhile, in Essos, with three newborn dragons by her side, Daenerys Targaryen attempts to find allies and resources to help her fulfill her perceived destiny to win the Iron Throne.
+
+Game of Thrones features a large ensemble cast, including Peter Dinklage, Lena Headey, Nikolaj Coster-Waldau, Michelle Fairley and Emilia Clarke. The season introduced a number of new cast members, including Stephen Dillane, Natalie Dormer, Carice van Houten and Liam Cunningham.
+
+Critics praised the show's production values, cast, and music. Viewership rose compared with the previous season. The second season won six of the twelve Emmy Awards for which it was nominated. It received a nomination for Outstanding Supporting Actor in a Drama Series (Peter Dinklage) and Outstanding Drama Series. U.S. viewership rose by approximately 8% over the course of the season, from 3.9 million to 4.2 million by the season finale.
